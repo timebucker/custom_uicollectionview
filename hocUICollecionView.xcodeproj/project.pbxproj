@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		AD139F6D2179846200D20BB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD139F6C2179846200D20BB1 /* AppDelegate.swift */; };
-		AD139F6F2179846200D20BB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD139F6E2179846200D20BB1 /* ViewController.swift */; };
-		AD139F722179846200D20BB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD139F702179846200D20BB1 /* Main.storyboard */; };
 		AD139F742179846900D20BB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD139F732179846900D20BB1 /* Assets.xcassets */; };
 		AD139F772179846900D20BB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD139F752179846900D20BB1 /* LaunchScreen.storyboard */; };
 		AD139F822179846900D20BB1 /* hocUICollecionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD139F812179846900D20BB1 /* hocUICollecionViewTests.swift */; };
 		AD139F8D2179846900D20BB1 /* hocUICollecionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD139F8C2179846900D20BB1 /* hocUICollecionViewUITests.swift */; };
+		AD1615C2217DB25F008FAA26 /* HotLiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1615BB217DB25F008FAA26 /* HotLiveCell.swift */; };
+		AD1615C3217DB25F008FAA26 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1615BC217DB25F008FAA26 /* SectionHeader.swift */; };
+		AD1615C4217DB25F008FAA26 /* HotLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1615BD217DB25F008FAA26 /* HotLive.swift */; };
+		AD1615C5217DB25F008FAA26 /* GameListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1615BE217DB25F008FAA26 /* GameListCell.swift */; };
+		AD1615C6217DB25F008FAA26 /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1615BF217DB25F008FAA26 /* GameCell.swift */; };
+		AD1615C7217DB25F008FAA26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1615C0217DB25F008FAA26 /* ViewController.swift */; };
+		AD1615C8217DB25F008FAA26 /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1615C1217DB25F008FAA26 /* BannerCell.swift */; };
+		AD1615CB217DC2F9008FAA26 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1615CA217DC2F9008FAA26 /* HomeController.swift */; };
+		AD1615CD217DCA53008FAA26 /* CustomTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1615CC217DCA53008FAA26 /* CustomTabbarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +43,6 @@
 /* Begin PBXFileReference section */
 		AD139F692179846200D20BB1 /* hocUICollecionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hocUICollecionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD139F6C2179846200D20BB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AD139F6E2179846200D20BB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AD139F712179846200D20BB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD139F732179846900D20BB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD139F762179846900D20BB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD139F782179846900D20BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +52,15 @@
 		AD139F882179846900D20BB1 /* hocUICollecionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hocUICollecionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD139F8C2179846900D20BB1 /* hocUICollecionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hocUICollecionViewUITests.swift; sourceTree = "<group>"; };
 		AD139F8E2179846900D20BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD1615BB217DB25F008FAA26 /* HotLiveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotLiveCell.swift; sourceTree = "<group>"; };
+		AD1615BC217DB25F008FAA26 /* SectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		AD1615BD217DB25F008FAA26 /* HotLive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotLive.swift; sourceTree = "<group>"; };
+		AD1615BE217DB25F008FAA26 /* GameListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameListCell.swift; sourceTree = "<group>"; };
+		AD1615BF217DB25F008FAA26 /* GameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
+		AD1615C0217DB25F008FAA26 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD1615C1217DB25F008FAA26 /* BannerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+		AD1615CA217DC2F9008FAA26 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		AD1615CC217DCA53008FAA26 /* CustomTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +111,17 @@
 		AD139F6B2179846200D20BB1 /* hocUICollecionView */ = {
 			isa = PBXGroup;
 			children = (
+				AD1615C9217DC2DE008FAA26 /* Controller */,
 				AD139F6C2179846200D20BB1 /* AppDelegate.swift */,
-				AD139F6E2179846200D20BB1 /* ViewController.swift */,
-				AD139F702179846200D20BB1 /* Main.storyboard */,
 				AD139F732179846900D20BB1 /* Assets.xcassets */,
 				AD139F752179846900D20BB1 /* LaunchScreen.storyboard */,
 				AD139F782179846900D20BB1 /* Info.plist */,
+				AD1615C1217DB25F008FAA26 /* BannerCell.swift */,
+				AD1615BF217DB25F008FAA26 /* GameCell.swift */,
+				AD1615BE217DB25F008FAA26 /* GameListCell.swift */,
+				AD1615BD217DB25F008FAA26 /* HotLive.swift */,
+				AD1615BB217DB25F008FAA26 /* HotLiveCell.swift */,
+				AD1615BC217DB25F008FAA26 /* SectionHeader.swift */,
 			);
 			path = hocUICollecionView;
 			sourceTree = "<group>";
@@ -123,6 +142,16 @@
 				AD139F8E2179846900D20BB1 /* Info.plist */,
 			);
 			path = hocUICollecionViewUITests;
+			sourceTree = "<group>";
+		};
+		AD1615C9217DC2DE008FAA26 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AD1615C0217DB25F008FAA26 /* ViewController.swift */,
+				AD1615CA217DC2F9008FAA26 /* HomeController.swift */,
+				AD1615CC217DCA53008FAA26 /* CustomTabbarController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +260,6 @@
 			files = (
 				AD139F772179846900D20BB1 /* LaunchScreen.storyboard in Resources */,
 				AD139F742179846900D20BB1 /* Assets.xcassets in Resources */,
-				AD139F722179846200D20BB1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +284,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD139F6F2179846200D20BB1 /* ViewController.swift in Sources */,
+				AD1615CD217DCA53008FAA26 /* CustomTabbarController.swift in Sources */,
 				AD139F6D2179846200D20BB1 /* AppDelegate.swift in Sources */,
+				AD1615C8217DB25F008FAA26 /* BannerCell.swift in Sources */,
+				AD1615C2217DB25F008FAA26 /* HotLiveCell.swift in Sources */,
+				AD1615C3217DB25F008FAA26 /* SectionHeader.swift in Sources */,
+				AD1615C4217DB25F008FAA26 /* HotLive.swift in Sources */,
+				AD1615CB217DC2F9008FAA26 /* HomeController.swift in Sources */,
+				AD1615C7217DB25F008FAA26 /* ViewController.swift in Sources */,
+				AD1615C5217DB25F008FAA26 /* GameListCell.swift in Sources */,
+				AD1615C6217DB25F008FAA26 /* GameCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +329,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AD139F702179846200D20BB1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AD139F712179846200D20BB1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AD139F752179846900D20BB1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -433,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QB7S5B32RQ;
 				INFOPLIST_FILE = hocUICollecionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QB7S5B32RQ;
 				INFOPLIST_FILE = hocUICollecionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
