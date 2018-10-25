@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10F7668957928AE34E37FE94 /* Pods_hocUICollecionViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF15DE193CB920582A180977 /* Pods_hocUICollecionViewTests.framework */; };
+		5704A45CF92A442FB335CF12 /* Pods_hocUICollecionView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B475419C2DEAA11B51777717 /* Pods_hocUICollecionView.framework */; };
+		87B47D6FA0FB0744A6AB9568 /* Pods_hocUICollecionViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1CB3E0BE746603B5AE86644 /* Pods_hocUICollecionViewUITests.framework */; };
 		AD139F6D2179846200D20BB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD139F6C2179846200D20BB1 /* AppDelegate.swift */; };
 		AD139F742179846900D20BB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD139F732179846900D20BB1 /* Assets.xcassets */; };
 		AD139F772179846900D20BB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD139F752179846900D20BB1 /* LaunchScreen.storyboard */; };
@@ -17,10 +20,13 @@
 		AD1615C4217DB25F008FAA26 /* HotLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1615BD217DB25F008FAA26 /* HotLive.swift */; };
 		AD1615C5217DB25F008FAA26 /* GameListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1615BE217DB25F008FAA26 /* GameListCell.swift */; };
 		AD1615C6217DB25F008FAA26 /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1615BF217DB25F008FAA26 /* GameCell.swift */; };
-		AD1615C7217DB25F008FAA26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1615C0217DB25F008FAA26 /* ViewController.swift */; };
+		AD1615C7217DB25F008FAA26 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1615C0217DB25F008FAA26 /* GameViewController.swift */; };
 		AD1615C8217DB25F008FAA26 /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1615C1217DB25F008FAA26 /* BannerCell.swift */; };
-		AD1615CB217DC2F9008FAA26 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1615CA217DC2F9008FAA26 /* HomeController.swift */; };
 		AD1615CD217DCA53008FAA26 /* CustomTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1615CC217DCA53008FAA26 /* CustomTabbarController.swift */; };
+		AD1634462181A6FC0088CF08 /* MomentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1634452181A6FC0088CF08 /* MomentViewController.swift */; };
+		AD1634482181A98E0088CF08 /* IdolModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1634472181A98E0088CF08 /* IdolModel.swift */; };
+		AD16344A2181AA820088CF08 /* IdolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1634492181AA820088CF08 /* IdolCell.swift */; };
+		AD16344C2181D20D0088CF08 /* MomentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD16344B2181D20D0088CF08 /* MomentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B2629BEDBAA031E028EB16F /* Pods-hocUICollecionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hocUICollecionView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hocUICollecionView/Pods-hocUICollecionView.debug.xcconfig"; sourceTree = "<group>"; };
+		78D89D2D822E64042D7B9409 /* Pods-hocUICollecionViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hocUICollecionViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hocUICollecionViewUITests/Pods-hocUICollecionViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A97047818A89265FF6904B5 /* Pods-hocUICollecionViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hocUICollecionViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hocUICollecionViewTests/Pods-hocUICollecionViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1CB3E0BE746603B5AE86644 /* Pods_hocUICollecionViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hocUICollecionViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD139F692179846200D20BB1 /* hocUICollecionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hocUICollecionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD139F6C2179846200D20BB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD139F732179846900D20BB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,10 +67,18 @@
 		AD1615BD217DB25F008FAA26 /* HotLive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotLive.swift; sourceTree = "<group>"; };
 		AD1615BE217DB25F008FAA26 /* GameListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameListCell.swift; sourceTree = "<group>"; };
 		AD1615BF217DB25F008FAA26 /* GameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
-		AD1615C0217DB25F008FAA26 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD1615C0217DB25F008FAA26 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		AD1615C1217DB25F008FAA26 /* BannerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
-		AD1615CA217DC2F9008FAA26 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		AD1615CC217DCA53008FAA26 /* CustomTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabbarController.swift; sourceTree = "<group>"; };
+		AD1634452181A6FC0088CF08 /* MomentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentViewController.swift; sourceTree = "<group>"; };
+		AD1634472181A98E0088CF08 /* IdolModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdolModel.swift; sourceTree = "<group>"; };
+		AD1634492181AA820088CF08 /* IdolCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdolCell.swift; sourceTree = "<group>"; };
+		AD16344B2181D20D0088CF08 /* MomentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentViewModel.swift; sourceTree = "<group>"; };
+		B06F66CAD2D5C2AEE456B321 /* Pods-hocUICollecionViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hocUICollecionViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hocUICollecionViewUITests/Pods-hocUICollecionViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B475419C2DEAA11B51777717 /* Pods_hocUICollecionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hocUICollecionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF15DE193CB920582A180977 /* Pods_hocUICollecionViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hocUICollecionViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36841899450F818EE4F5EC8 /* Pods-hocUICollecionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hocUICollecionView.release.xcconfig"; path = "Pods/Target Support Files/Pods-hocUICollecionView/Pods-hocUICollecionView.release.xcconfig"; sourceTree = "<group>"; };
+		F678CA6C038BDF1D39CA6F1C /* Pods-hocUICollecionViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hocUICollecionViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hocUICollecionViewTests/Pods-hocUICollecionViewTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5704A45CF92A442FB335CF12 /* Pods_hocUICollecionView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10F7668957928AE34E37FE94 /* Pods_hocUICollecionViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,12 +102,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87B47D6FA0FB0744A6AB9568 /* Pods_hocUICollecionViewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15935CC4E5A3AE09B7BDA12C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B2629BEDBAA031E028EB16F /* Pods-hocUICollecionView.debug.xcconfig */,
+				F36841899450F818EE4F5EC8 /* Pods-hocUICollecionView.release.xcconfig */,
+				8A97047818A89265FF6904B5 /* Pods-hocUICollecionViewTests.debug.xcconfig */,
+				F678CA6C038BDF1D39CA6F1C /* Pods-hocUICollecionViewTests.release.xcconfig */,
+				78D89D2D822E64042D7B9409 /* Pods-hocUICollecionViewUITests.debug.xcconfig */,
+				B06F66CAD2D5C2AEE456B321 /* Pods-hocUICollecionViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AD139F602179846200D20BB1 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +129,8 @@
 				AD139F802179846900D20BB1 /* hocUICollecionViewTests */,
 				AD139F8B2179846900D20BB1 /* hocUICollecionViewUITests */,
 				AD139F6A2179846200D20BB1 /* Products */,
+				15935CC4E5A3AE09B7BDA12C /* Pods */,
+				E1D881739BD1F15472089AE1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,17 +147,15 @@
 		AD139F6B2179846200D20BB1 /* hocUICollecionView */ = {
 			isa = PBXGroup;
 			children = (
-				AD1615C9217DC2DE008FAA26 /* Controller */,
+				AD1634442181A6520088CF08 /* Main */,
+				AD1634412181A39A0088CF08 /* Profile */,
+				AD1634402181A38E0088CF08 /* Message */,
+				AD16343F2181A37C0088CF08 /* Moment */,
+				AD16343E2181A3760088CF08 /* Home */,
 				AD139F6C2179846200D20BB1 /* AppDelegate.swift */,
 				AD139F732179846900D20BB1 /* Assets.xcassets */,
 				AD139F752179846900D20BB1 /* LaunchScreen.storyboard */,
 				AD139F782179846900D20BB1 /* Info.plist */,
-				AD1615C1217DB25F008FAA26 /* BannerCell.swift */,
-				AD1615BF217DB25F008FAA26 /* GameCell.swift */,
-				AD1615BE217DB25F008FAA26 /* GameListCell.swift */,
-				AD1615BD217DB25F008FAA26 /* HotLive.swift */,
-				AD1615BB217DB25F008FAA26 /* HotLiveCell.swift */,
-				AD1615BC217DB25F008FAA26 /* SectionHeader.swift */,
 			);
 			path = hocUICollecionView;
 			sourceTree = "<group>";
@@ -144,14 +178,77 @@
 			path = hocUICollecionViewUITests;
 			sourceTree = "<group>";
 		};
-		AD1615C9217DC2DE008FAA26 /* Controller */ = {
+		AD16343E2181A3760088CF08 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				AD1615C0217DB25F008FAA26 /* ViewController.swift */,
-				AD1615CA217DC2F9008FAA26 /* HomeController.swift */,
+				AD1634432181A5CA0088CF08 /* Hot */,
+				AD1634422181A5BD0088CF08 /* Game */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AD16343F2181A37C0088CF08 /* Moment */ = {
+			isa = PBXGroup;
+			children = (
+				AD1634452181A6FC0088CF08 /* MomentViewController.swift */,
+				AD1634472181A98E0088CF08 /* IdolModel.swift */,
+				AD1634492181AA820088CF08 /* IdolCell.swift */,
+				AD16344B2181D20D0088CF08 /* MomentViewModel.swift */,
+			);
+			path = Moment;
+			sourceTree = "<group>";
+		};
+		AD1634402181A38E0088CF08 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		AD1634412181A39A0088CF08 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		AD1634422181A5BD0088CF08 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				AD1615BD217DB25F008FAA26 /* HotLive.swift */,
+				AD1615BB217DB25F008FAA26 /* HotLiveCell.swift */,
+				AD1615BF217DB25F008FAA26 /* GameCell.swift */,
+				AD1615BE217DB25F008FAA26 /* GameListCell.swift */,
+				AD1615C1217DB25F008FAA26 /* BannerCell.swift */,
+				AD1615C0217DB25F008FAA26 /* GameViewController.swift */,
+				AD1615BC217DB25F008FAA26 /* SectionHeader.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		AD1634432181A5CA0088CF08 /* Hot */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Hot;
+			sourceTree = "<group>";
+		};
+		AD1634442181A6520088CF08 /* Main */ = {
+			isa = PBXGroup;
+			children = (
 				AD1615CC217DCA53008FAA26 /* CustomTabbarController.swift */,
 			);
-			path = Controller;
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E1D881739BD1F15472089AE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B475419C2DEAA11B51777717 /* Pods_hocUICollecionView.framework */,
+				DF15DE193CB920582A180977 /* Pods_hocUICollecionViewTests.framework */,
+				A1CB3E0BE746603B5AE86644 /* Pods_hocUICollecionViewUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,9 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD139F912179846900D20BB1 /* Build configuration list for PBXNativeTarget "hocUICollecionView" */;
 			buildPhases = (
+				A83C353F00A55698A1A43A53 /* [CP] Check Pods Manifest.lock */,
 				AD139F652179846200D20BB1 /* Sources */,
 				AD139F662179846200D20BB1 /* Frameworks */,
 				AD139F672179846200D20BB1 /* Resources */,
+				F0306BFB4E5E8940E4289865 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -178,6 +277,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD139F942179846900D20BB1 /* Build configuration list for PBXNativeTarget "hocUICollecionViewTests" */;
 			buildPhases = (
+				363FB3AA7A6AF162BFB89C42 /* [CP] Check Pods Manifest.lock */,
 				AD139F792179846900D20BB1 /* Sources */,
 				AD139F7A2179846900D20BB1 /* Frameworks */,
 				AD139F7B2179846900D20BB1 /* Resources */,
@@ -196,6 +296,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD139F972179846900D20BB1 /* Build configuration list for PBXNativeTarget "hocUICollecionViewUITests" */;
 			buildPhases = (
+				45D565AC047D7E3C6E99817E /* [CP] Check Pods Manifest.lock */,
 				AD139F842179846900D20BB1 /* Sources */,
 				AD139F852179846900D20BB1 /* Frameworks */,
 				AD139F862179846900D20BB1 /* Resources */,
@@ -279,6 +380,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		363FB3AA7A6AF162BFB89C42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hocUICollecionViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45D565AC047D7E3C6E99817E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hocUICollecionViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A83C353F00A55698A1A43A53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hocUICollecionView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0306BFB4E5E8940E4289865 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-hocUICollecionView/Pods-hocUICollecionView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hocUICollecionView/Pods-hocUICollecionView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD139F652179846200D20BB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -286,12 +480,15 @@
 			files = (
 				AD1615CD217DCA53008FAA26 /* CustomTabbarController.swift in Sources */,
 				AD139F6D2179846200D20BB1 /* AppDelegate.swift in Sources */,
+				AD1634462181A6FC0088CF08 /* MomentViewController.swift in Sources */,
+				AD16344C2181D20D0088CF08 /* MomentViewModel.swift in Sources */,
 				AD1615C8217DB25F008FAA26 /* BannerCell.swift in Sources */,
 				AD1615C2217DB25F008FAA26 /* HotLiveCell.swift in Sources */,
+				AD16344A2181AA820088CF08 /* IdolCell.swift in Sources */,
 				AD1615C3217DB25F008FAA26 /* SectionHeader.swift in Sources */,
+				AD1634482181A98E0088CF08 /* IdolModel.swift in Sources */,
 				AD1615C4217DB25F008FAA26 /* HotLive.swift in Sources */,
-				AD1615CB217DC2F9008FAA26 /* HomeController.swift in Sources */,
-				AD1615C7217DB25F008FAA26 /* ViewController.swift in Sources */,
+				AD1615C7217DB25F008FAA26 /* GameViewController.swift in Sources */,
 				AD1615C5217DB25F008FAA26 /* GameListCell.swift in Sources */,
 				AD1615C6217DB25F008FAA26 /* GameCell.swift in Sources */,
 			);
@@ -458,6 +655,7 @@
 		};
 		AD139F922179846900D20BB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B2629BEDBAA031E028EB16F /* Pods-hocUICollecionView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -476,6 +674,7 @@
 		};
 		AD139F932179846900D20BB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36841899450F818EE4F5EC8 /* Pods-hocUICollecionView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -494,6 +693,7 @@
 		};
 		AD139F952179846900D20BB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A97047818A89265FF6904B5 /* Pods-hocUICollecionViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +714,7 @@
 		};
 		AD139F962179846900D20BB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F678CA6C038BDF1D39CA6F1C /* Pods-hocUICollecionViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -534,6 +735,7 @@
 		};
 		AD139F982179846900D20BB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78D89D2D822E64042D7B9409 /* Pods-hocUICollecionViewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -553,6 +755,7 @@
 		};
 		AD139F992179846900D20BB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B06F66CAD2D5C2AEE456B321 /* Pods-hocUICollecionViewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
