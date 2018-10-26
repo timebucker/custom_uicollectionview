@@ -15,6 +15,8 @@ class MomentViewController: UIViewController {
     
     let itemSpace: CGFloat = 5
     let rowSpace: CGFloat = 5
+    let inset: CGFloat = 10
+    
     let titleView = UILabel(frame: CGRect(x: 0, y: 0, width: 75, height: 18))
     let leftBarButton = UIBarButtonItem(image: #imageLiteral(resourceName: "icon"), style: .plain, target: nil, action: nil)
     let rightBarButton = UIBarButtonItem(image: #imageLiteral(resourceName: "icon"), style: .plain, target: nil, action: nil)
@@ -33,25 +35,23 @@ class MomentViewController: UIViewController {
         bind()
         
         momentViewModel.getDataFromAPI()
-        
-        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        tabBarController?.navigationItem.titleView = titleView
+        tabBarController?.navigationItem.leftBarButtonItem = leftBarButton
+        tabBarController?.navigationItem.rightBarButtonItem = rightBarButton
     }
     
     func setupViews() {
         titleView.text = "MOMENT"
-        navigationItem.titleView = titleView
-        navigationItem.leftBarButtonItem = leftBarButton
-        navigationItem.rightBarButtonItem = rightBarButton
-
-        tabBarController?.navigationItem.titleView = titleView
-        tabBarController?.navigationItem.leftBarButtonItem = leftBarButton
-        tabBarController?.navigationItem.rightBarButtonItem = rightBarButton
         
         view.addSubview(collectionView)
         collectionView.dataSource = self
         collectionView.delegate = self
         collectionView.register(IdolCell.self, forCellWithReuseIdentifier: "IdolCell")
         collectionView.backgroundColor = .white
+        collectionView.showsVerticalScrollIndicator = false
     }
     
     func setupConstraints() {
@@ -94,7 +94,7 @@ extension MomentViewController: UICollectionViewDelegate {
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: (collectionView.bounds.width - itemSpace)/2, height: 229.4 * UIScreen.main.bounds.height / 667)
+        return CGSize(width: (collectionView.bounds.width - itemSpace)/2 - inset, height: 229.4 * UIScreen.main.bounds.height / 667)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
@@ -107,5 +107,7 @@ extension MomentViewController: UICollectionViewDelegate {
 }
 
 extension MomentViewController: UICollectionViewDelegateFlowLayout {
-    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+        return UIEdgeInsets(top: 10, left: inset, bottom: 0, right: inset)
+    }
 }

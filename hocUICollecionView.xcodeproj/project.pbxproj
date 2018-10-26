@@ -27,6 +27,9 @@
 		AD1634482181A98E0088CF08 /* IdolModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1634472181A98E0088CF08 /* IdolModel.swift */; };
 		AD16344A2181AA820088CF08 /* IdolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1634492181AA820088CF08 /* IdolCell.swift */; };
 		AD16344C2181D20D0088CF08 /* MomentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD16344B2181D20D0088CF08 /* MomentViewModel.swift */; };
+		AD185E562182F8C6009B31AC /* HotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD185E552182F8C6009B31AC /* HotViewController.swift */; };
+		AD185E582182F9DB009B31AC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD185E572182F9DB009B31AC /* HomeViewController.swift */; };
+		AD185E5A2182F9F0009B31AC /* HomeHeaderTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD185E592182F9F0009B31AC /* HomeHeaderTab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +77,9 @@
 		AD1634472181A98E0088CF08 /* IdolModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdolModel.swift; sourceTree = "<group>"; };
 		AD1634492181AA820088CF08 /* IdolCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdolCell.swift; sourceTree = "<group>"; };
 		AD16344B2181D20D0088CF08 /* MomentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentViewModel.swift; sourceTree = "<group>"; };
+		AD185E552182F8C6009B31AC /* HotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotViewController.swift; sourceTree = "<group>"; };
+		AD185E572182F9DB009B31AC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AD185E592182F9F0009B31AC /* HomeHeaderTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderTab.swift; sourceTree = "<group>"; };
 		B06F66CAD2D5C2AEE456B321 /* Pods-hocUICollecionViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hocUICollecionViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hocUICollecionViewUITests/Pods-hocUICollecionViewUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B475419C2DEAA11B51777717 /* Pods_hocUICollecionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hocUICollecionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF15DE193CB920582A180977 /* Pods_hocUICollecionViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hocUICollecionViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +131,7 @@
 		AD139F602179846200D20BB1 = {
 			isa = PBXGroup;
 			children = (
+				AD185E5B21830B76009B31AC /* Extensions */,
 				AD139F6B2179846200D20BB1 /* hocUICollecionView */,
 				AD139F802179846900D20BB1 /* hocUICollecionViewTests */,
 				AD139F8B2179846900D20BB1 /* hocUICollecionViewUITests */,
@@ -183,6 +190,8 @@
 			children = (
 				AD1634432181A5CA0088CF08 /* Hot */,
 				AD1634422181A5BD0088CF08 /* Game */,
+				AD185E572182F9DB009B31AC /* HomeViewController.swift */,
+				AD185E592182F9F0009B31AC /* HomeHeaderTab.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -229,6 +238,7 @@
 		AD1634432181A5CA0088CF08 /* Hot */ = {
 			isa = PBXGroup;
 			children = (
+				AD185E552182F8C6009B31AC /* HotViewController.swift */,
 			);
 			path = Hot;
 			sourceTree = "<group>";
@@ -239,6 +249,13 @@
 				AD1615CC217DCA53008FAA26 /* CustomTabbarController.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		AD185E5B21830B76009B31AC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		E1D881739BD1F15472089AE1 /* Frameworks */ = {
@@ -482,7 +499,10 @@
 				AD139F6D2179846200D20BB1 /* AppDelegate.swift in Sources */,
 				AD1634462181A6FC0088CF08 /* MomentViewController.swift in Sources */,
 				AD16344C2181D20D0088CF08 /* MomentViewModel.swift in Sources */,
+				AD185E562182F8C6009B31AC /* HotViewController.swift in Sources */,
+				AD185E582182F9DB009B31AC /* HomeViewController.swift in Sources */,
 				AD1615C8217DB25F008FAA26 /* BannerCell.swift in Sources */,
+				AD185E5A2182F9F0009B31AC /* HomeHeaderTab.swift in Sources */,
 				AD1615C2217DB25F008FAA26 /* HotLiveCell.swift in Sources */,
 				AD16344A2181AA820088CF08 /* IdolCell.swift in Sources */,
 				AD1615C3217DB25F008FAA26 /* SectionHeader.swift in Sources */,
