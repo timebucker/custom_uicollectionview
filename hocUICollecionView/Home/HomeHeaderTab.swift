@@ -24,6 +24,7 @@ final class HomeHeaderTab: UIView {
         super.init(frame: frame)
         visualize()
         setupConstraint()
+        
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -42,13 +43,11 @@ final class HomeHeaderTab: UIView {
         }
     }
     
-    func setupConstraint() {
-        
+    override func layoutSubviews() {
         hotButton.sizeToFit()
         gameButton.sizeToFit()
-        
         let hButton: CGFloat = 30
-        let padding: CGFloat = 10
+        let padding: CGFloat = 20
         let xSpacing = (bounds.width - hotButton.frame.width - gameButton.frame.width - padding) / 2
         
         let xHotButton: CGFloat = bounds.minX + xSpacing
@@ -62,6 +61,11 @@ final class HomeHeaderTab: UIView {
         
         gameButton.frame.size.height = hButton
         gameButton.frame.origin = CGPoint(x: xDiscoverButton, y: yDiscoverButton)
+    }
+    
+    func setupConstraint() {
+        
+     
     }
     
     @objc func selectButton(_ button: UIButton) {

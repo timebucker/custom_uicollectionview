@@ -30,6 +30,7 @@
 		AD185E562182F8C6009B31AC /* HotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD185E552182F8C6009B31AC /* HotViewController.swift */; };
 		AD185E582182F9DB009B31AC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD185E572182F9DB009B31AC /* HomeViewController.swift */; };
 		AD185E5A2182F9F0009B31AC /* HomeHeaderTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD185E592182F9F0009B31AC /* HomeHeaderTab.swift */; };
+		AD185E5F21832C9A009B31AC /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD185E5E21832C9A009B31AC /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		AD185E552182F8C6009B31AC /* HotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotViewController.swift; sourceTree = "<group>"; };
 		AD185E572182F9DB009B31AC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AD185E592182F9F0009B31AC /* HomeHeaderTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderTab.swift; sourceTree = "<group>"; };
+		AD185E5E21832C9A009B31AC /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		B06F66CAD2D5C2AEE456B321 /* Pods-hocUICollecionViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hocUICollecionViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hocUICollecionViewUITests/Pods-hocUICollecionViewUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B475419C2DEAA11B51777717 /* Pods_hocUICollecionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hocUICollecionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF15DE193CB920582A180977 /* Pods_hocUICollecionViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hocUICollecionViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -254,6 +256,7 @@
 		AD185E5B21830B76009B31AC /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				AD185E5E21832C9A009B31AC /* Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -505,6 +508,7 @@
 				AD185E5A2182F9F0009B31AC /* HomeHeaderTab.swift in Sources */,
 				AD1615C2217DB25F008FAA26 /* HotLiveCell.swift in Sources */,
 				AD16344A2181AA820088CF08 /* IdolCell.swift in Sources */,
+				AD185E5F21832C9A009B31AC /* Extension.swift in Sources */,
 				AD1615C3217DB25F008FAA26 /* SectionHeader.swift in Sources */,
 				AD1634482181A98E0088CF08 /* IdolModel.swift in Sources */,
 				AD1615C4217DB25F008FAA26 /* HotLive.swift in Sources */,
